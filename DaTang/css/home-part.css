@@ -1,0 +1,122 @@
+.nav-left{
+	margin-top:38px;
+	width:242px;
+	height:600px;
+	border:1px solid rgb(215,215,215);
+	overflow:hidden;
+}
+.first-ul{
+	margin-top:18px;
+}
+.nav-item{
+	line-height:42px;
+}
+.nav-item a{
+	display:block;
+    padding-left:38px;
+    font-size:15px;
+    color:rgb(83,83,83);
+}
+#second-ul-1,#second-ul-2{
+	display:block;
+}
+#second-ul-3,#second-ul-4{
+	display:none;
+}
+.nav-item ul li{
+	padding-left:18px;
+}
+.nav-item ul li a{
+	color:rgb(112,112,112);
+}
+.nav-left-hover{
+	background:rgb(213,173,84);
+
+} 
+.nav-left-hover a{
+	color:rgb(255,255,255) !important;
+}
+.nav-item li:hover {
+	background:rgba(213,173,84,0.2);
+}
+
+.nav-left-hover:hover{
+	background:rgba(213,173,84,0.8) !important;
+}
+
+#second-li,#third-li{
+	display:block;
+	background:url(../images/home-part-images/list_01.jpg) no-repeat 95%;
+	}
+#fourth-li,#fifth-li{
+	display:block;
+	background:url(../images/home-part-images/list_02.jpg) no-repeat 95%;
+	}
+
+.list ul{
+	margin-top:-638px;
+	width:828px;
+	float:right;
+}
+.list ul .item{
+	float:left;
+	margin-right:25px;
+	margin-top:34px;
+}
+.item .product-images{
+	border:1px solid rgb(215,215,215);
+}
+.item .product-images:hover{
+	border:3px solid red;
+	width:245px;
+	height:244px;
+}
+.item .name{
+	margin-top:12px;
+	line-height:22px;
+	font-size:14px;
+	font-weight:500;
+	color:rgb(57,57,57);
+}
+.item .price{
+	margin-top:8px;
+	line-height:22px;
+	font-size:14px;
+	color:rgb(230,190,141);
+}
+.page{
+	float:right;
+	margin-right:16px;
+	margin-top:48px;
+	}
+.page span{
+    font-size:20px;
+	font-weight:bold;
+
+}
+.page span a{
+	width:28px;
+	height:28px;
+	padding:4px 8px;
+	margin-right:6px;
+	font-size:12px;
+	font-weight:normal;
+	color:rgb(57,57,57);
+	border:1px solid rgb(215,215,215);
+}
+.page-item a{
+	width:28px;
+	height:28px;
+	padding:4px 8px;
+	margin-right:6px;
+	font-size:12px;
+	font-weight:normal;
+	color:rgb(57,57,57);
+	background-color:rgb(223,173,84);
+	border:1px solid rgb(223,173,84);
+}
+.page span a:hover{
+	background-color:rgb(223,173,84);
+	border:1px solid rgb(223,173,84);
+
+}

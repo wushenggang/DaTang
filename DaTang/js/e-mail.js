@@ -1,0 +1,35 @@
+$(document).ready(function(){
+$("#formId").validate({
+rules:{
+	username:{
+		required:true,
+		rangelength:[2,10],
+	},
+	"e-mail":{
+		required:true,
+		email:true,
+		isEmail:true,
+	},
+	"comment":{
+		required:true,
+		rangelength:[1,200],
+	}
+},
+messages:{
+	username:{
+		required:"必须填写用户名",
+		rangelength:"用户名的长度必须为2到10位",
+	},
+	"e-mail":{
+		required:"必须填写邮箱",
+		email:"填写邮箱的格式不对",
+		
+	},
+	"comment":{
+		required:"必须填写内容",
+		rangelength:"内容必须在200字以内",
+	}
+	}
+	
+});
+});
